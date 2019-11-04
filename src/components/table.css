@@ -1,0 +1,57 @@
+
+table.jsonAudits {
+    margin: auto;
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    border-style: hidden;
+}
+
+table.jsonAudits caption {
+    background-color: #f79646;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: .3em;
+}
+
+table.jsonAudits thead th {
+    padding: 8px;
+    background-color: #fde9d9;
+    font-size: large;
+}
+
+table.jsonAudits thead th.thNumber {
+    width: 40%;
+}
+
+table.jsonAudits thead th.thNameAudit, table.jsonAudits thead th.thMode, table.jsonAudits thead th.thScoreAudit {
+    width: 20%;
+}
+
+table.jsonAudits th, table.jsonAudits td {
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f79646 #ccc;
+}
+
+table.jsonAudits td {
+    text-align: center;
+}
+
+table.jsonAudits tbody th {
+    text-align: left;
+    font-weight: normal;
+}
+
+th {
+    font-weight: bold;
+    font-size: large;
+    background-color: #687886;
+    color: #fff;
+}
+
+table.jsonAudits tr.even {
+    background-color: #fde9d9;
+}
